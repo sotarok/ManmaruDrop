@@ -27,8 +27,6 @@ server-tree:
   background-color: '#fafdff'
   highlight:
     color: '#e6b422'
-    font-weight: 'bold'
-    background: '#6a1917'
   newtalk:
     color: '#e82b1e'
   unread:
@@ -40,7 +38,7 @@ server-tree:
       color: '#999'
   selected:
     active:
-      color: '#fff'
+      color: '#e3d7a3'
     inactive:
       color: '#333'
     background:
