@@ -1,19 +1,19 @@
 log-view:
-  nickname-format: '%n'
+  nickname-format: '%n:'
   scroller-highlight-color: '#e20'
 input-text:
-  font-family: 'Osaka'
+  font-family: 'ヒラギノ角ゴ Pro W3'
   font-size: 12.0
   color: '#000'
-  background-color: '#e1e6fa'
+  background-color: '#fafdff'
 member-list:
-  font-family: 'Osaka'
+  font-family: 'ヒラギノ角ゴ Pro W3'
   font-size: 11.0
   color: '#000000'
-  background-color: '#e1e6fa'
+  background-color: '#fafdff'
   color: '#666'
   operator:
-    color: '#e82b1e'
+    color: '#0073a8'
   selected:
     color: '#fff'
     background:
@@ -22,15 +22,17 @@ member-list:
       top-color: '#375d81'
       bottom-color: '#375d81'
 server-tree:
-  font-family: 'Osaka'
-  font-size: 10.0
-  background-color: '#e1e6fa'
+  font-family: 'ヒラギノ角ゴ Pro W3'
+  font-size: 11.0
+  background-color: '#fafdff'
   highlight:
-    color: '#e82b1e'
+    color: '#e6b422'
+    font-weight: 'bold'
+    background: '#6a1917'
   newtalk:
     color: '#e82b1e'
   unread:
-    color: '#e82b1e'
+    color: '#5a4498'
   normal:
     active:
       color: '#000'
@@ -40,7 +42,7 @@ server-tree:
     active:
       color: '#fff'
     inactive:
-      color: '#999'
+      color: '#333'
     background:
       top-line-color: '#183152'
       bottom-line-color: '#183152'

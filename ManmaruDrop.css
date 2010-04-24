@@ -1,11 +1,11 @@
 html {
   padding-top: 0;
   padding-bottom: 0;
-  background-color: #e1e6fa;
+  background-color: #efefef;
 }
 
 body {
-  font-family: 'Osaka';
+  font-family: 'ヒラギノ角ゴ Pro W3';
   font-size: 12px;
 }
 
@@ -33,6 +33,11 @@ body.normal .line.text:after {
   content: "";
   display: block;
   clear: both;
+}
+
+body.normal .line[highlight=true] {
+    background-color: #e6b422;
+    color: #333;
 }
   
 body.normal .line.event {
